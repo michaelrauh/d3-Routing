@@ -1,0 +1,47 @@
+body {
+background:url('background.jpg')
+}
+
+h1{
+  text-align: center;
+}
+
+h3{
+  text-align: center;
+}
+
+.link {
+  fill: none;
+  stroke: #666;
+  stroke-width: 1.5px;
+}
+
+.link-highlighted {
+  fill: none;
+  stroke: #75fe04;
+  stroke-width: 1.5px;
+}
+
+circle {
+  fill: #ccc;
+  stroke: #333;
+  stroke-width: 1.5px;
+}
+
+.circle-recent {
+  fill: #B43200;
+  stroke: #333;
+  stroke-width: 1.5px;
+}
+
+.circle-old{
+  fill: #75fe04;
+  stroke: #333;
+  stroke-width: 1.5px;
+}
+
+text {
+  font: 10px sans-serif;
+  pointer-events: none;
+  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+}
